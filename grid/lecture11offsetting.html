@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<title>Lecture 11.- Offseting</title>
+<style>
+	.row{
+		background: #e8e8e8;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.columna{
+		background: #f2f2f2;
+		text-align: center;
+		padding: 10px;
+		border: 1px solid #4d5061;
+	}
+	.margen{
+		margin-left: 100px;
+	}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="columna col-auto">Columna #1</div>
+		<div class="columna col-auto ml-auto">Columna #2</div>
+	</div>
+	<div class="row">
+		<div class="margen columna col-auto mr-auto">
+			Columna #1
+		</div>
+		<div class="columna col-auto mr-auto">
+			Columna #2
+		</div>
+	</div>
+</div>
+</body>
+</html>
